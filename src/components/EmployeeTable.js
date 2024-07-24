@@ -21,6 +21,7 @@ const EmployeeTable = () => {
       } catch (error) {
         setError(true);
         setLoading(false);
+        alert('Failed to fetch data');
       }
     };
 
